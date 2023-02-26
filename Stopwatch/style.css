@@ -31,6 +31,8 @@ body {
   margin: 30px auto;
   color: white;
   text-align: center;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
 }
 
 h1,
@@ -42,7 +44,7 @@ h3 {
   text-transform: uppercase;
 }
 
-#minute,
+#minutes,
 #seconds,
 #tens {
   font-size: 2em;
